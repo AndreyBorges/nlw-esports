@@ -7,7 +7,7 @@ const LogoNlw = () => {
       fill='none'
       xmlns='http://www.w3.org/2000/svg'
     >
-      <g clip-path='url(#clip0_4_179)'>
+      <g clipPath='url(#clip0_4_179)'>
         <mask
           id='mask0_4_179'
           maskUnits='userSpaceOnUse'
@@ -93,32 +93,32 @@ const LogoNlw = () => {
           fill='url(#paint9_linear_4_179)'
         />
         <path
-          fill-rule='evenodd'
-          clip-rule='evenodd'
+          fillRule='evenodd'
+          clipRule='evenodd'
           d='M118.122 116.011V112.962L109.698 116.095H109.68V119.224H109.698L118.122 122.358V119.303L113.805 117.652L118.122 116.011Z'
           fill='#996DFF'
         />
         <path
-          fill-rule='evenodd'
-          clip-rule='evenodd'
+          fillRule='evenodd'
+          clipRule='evenodd'
           d='M166.92 122.2V119.15L171.235 117.509L166.92 115.868V112.819L175.333 115.95H175.352V119.081H175.333L166.92 122.197V122.2ZM163.307 108.511L158.36 124.392H161.298L166.246 108.511H163.307Z'
           fill='#996DFF'
         />
         <path
-          fill-rule='evenodd'
-          clip-rule='evenodd'
+          fillRule='evenodd'
+          clipRule='evenodd'
           d='M130.501 112.386C131.337 113.305 131.776 114.516 131.725 115.757V122.521H128.786V116.377C128.821 115.693 128.601 115.02 128.173 114.487C127.766 114.012 127.163 113.75 126.537 113.777C124.699 113.777 123.777 115.053 123.777 117.605V122.523H120.839V111.417H123.777V112.421C124.709 111.514 125.974 111.032 127.274 111.086C128.485 111.034 129.661 111.509 130.499 112.386H130.501Z'
           fill='white'
         />
         <path
-          fill-rule='evenodd'
-          clip-rule='evenodd'
+          fillRule='evenodd'
+          clipRule='evenodd'
           d='M135.464 106.799V122.679H138.402V106.799H135.464Z'
           fill='white'
         />
         <path
-          fill-rule='evenodd'
-          clip-rule='evenodd'
+          fillRule='evenodd'
+          clipRule='evenodd'
           d='M155.003 122.098H152.552L150.15 115.557L147.726 122.098H145.279L141.162 110.972H144.3L146.613 117.625L148.998 110.972H151.289L153.674 117.647L155.987 110.972H159.126L155.003 122.098Z'
           fill='white'
         />
@@ -160,8 +160,8 @@ const LogoNlw = () => {
           y2='135.549'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#D9D9D9' />
-          <stop offset='1' stop-color='#D9D9D9' stop-opacity='0' />
+          <stop stopColor='#D9D9D9' />
+          <stop offset='1' stopColor='#D9D9D9' stopOpacity='0' />
         </linearGradient>
         <linearGradient
           id='paint1_linear_4_179'
@@ -171,9 +171,9 @@ const LogoNlw = () => {
           y2='80.0001'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#996DFF' />
-          <stop offset='0.5' stop-color='#35E8B3' />
-          <stop offset='1' stop-color='#E2D45C' />
+          <stop stopColor='#996DFF' />
+          <stop offset='0.5' stopColor='#35E8B3' />
+          <stop offset='1' stopColor='#E2D45C' />
         </linearGradient>
         <linearGradient
           id='paint2_linear_4_179'
@@ -183,8 +183,8 @@ const LogoNlw = () => {
           y2='136.167'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#28203E' />
-          <stop offset='1' stop-color='#121214' stop-opacity='0' />
+          <stop stopColor='#28203E' />
+          <stop offset='1' stopColor='#121214' stopOpacity='0' />
         </linearGradient>
         <linearGradient
           id='paint3_linear_4_179'
@@ -194,8 +194,8 @@ const LogoNlw = () => {
           y2='78.4551'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#A9A9AD' />
-          <stop offset='1' stop-color='#A9A9AD' stop-opacity='0' />
+          <stop stopColor='#A9A9AD' />
+          <stop offset='1' stopColor='#A9A9AD' stopOpacity='0' />
         </linearGradient>
         <linearGradient
           id='paint4_linear_4_179'
@@ -205,8 +205,8 @@ const LogoNlw = () => {
           y2='78.4548'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#A9A9AD' />
-          <stop offset='1' stop-color='#A9A9AD' stop-opacity='0' />
+          <stop stopColor='#A9A9AD' />
+          <stop offset='1' stopColor='#A9A9AD' stopOpacity='0' />
         </linearGradient>
         <linearGradient
           id='paint5_linear_4_179'
@@ -216,8 +216,8 @@ const LogoNlw = () => {
           y2='78.4548'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#A9A9AD' />
-          <stop offset='1' stop-color='#A9A9AD' stop-opacity='0' />
+          <stop stopColor='#A9A9AD' />
+          <stop offset='1' stopColor='#A9A9AD' stopOpacity='0' />
         </linearGradient>
         <linearGradient
           id='paint6_linear_4_179'
@@ -227,8 +227,8 @@ const LogoNlw = () => {
           y2='78.4551'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#A9A9AD' />
-          <stop offset='1' stop-color='#A9A9AD' stop-opacity='0' />
+          <stop stopColor='#A9A9AD' />
+          <stop offset='1' stopColor='#A9A9AD' stopOpacity='0' />
         </linearGradient>
         <linearGradient
           id='paint7_linear_4_179'
@@ -238,8 +238,8 @@ const LogoNlw = () => {
           y2='78.4549'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#A9A9AD' />
-          <stop offset='1' stop-color='#A9A9AD' stop-opacity='0' />
+          <stop stopColor='#A9A9AD' />
+          <stop offset='1' stopColor='#A9A9AD' stopOpacity='0' />
         </linearGradient>
         <linearGradient
           id='paint8_linear_4_179'
@@ -249,8 +249,8 @@ const LogoNlw = () => {
           y2='78.4548'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#A9A9AD' />
-          <stop offset='1' stop-color='#A9A9AD' stop-opacity='0' />
+          <stop stopColor='#A9A9AD' />
+          <stop offset='1' stopColor='#A9A9AD' stopOpacity='0' />
         </linearGradient>
         <linearGradient
           id='paint9_linear_4_179'
@@ -260,8 +260,8 @@ const LogoNlw = () => {
           y2='78.4552'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#A9A9AD' />
-          <stop offset='1' stop-color='#A9A9AD' stop-opacity='0' />
+          <stop stopColor='#A9A9AD' />
+          <stop offset='1' stopColor='#A9A9AD' stopOpacity='0' />
         </linearGradient>
         <linearGradient
           id='paint10_linear_4_179'
@@ -271,9 +271,9 @@ const LogoNlw = () => {
           y2='115.532'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#996DFF' />
-          <stop offset='0.5' stop-color='#35E8B3' />
-          <stop offset='1' stop-color='#E2D45C' />
+          <stop stopColor='#996DFF' />
+          <stop offset='0.5' stopColor='#35E8B3' />
+          <stop offset='1' stopColor='#E2D45C' />
         </linearGradient>
         <radialGradient
           id='paint11_radial_4_179'
@@ -283,8 +283,8 @@ const LogoNlw = () => {
           gradientUnits='userSpaceOnUse'
           gradientTransform='translate(140.758 146.212) rotate(15.7611) scale(129.411 214.897)'
         >
-          <stop stop-color='#171226' />
-          <stop offset='1' stop-color='#171226' stop-opacity='0' />
+          <stop stopColor='#171226' />
+          <stop offset='1' stopColor='#171226' stopOpacity='0' />
         </radialGradient>
         <radialGradient
           id='paint12_radial_4_179'
@@ -294,8 +294,8 @@ const LogoNlw = () => {
           gradientUnits='userSpaceOnUse'
           gradientTransform='translate(173.94 25.0002) rotate(-157.036) scale(29.1264 48.3668)'
         >
-          <stop stop-color='#261945' />
-          <stop offset='1' stop-color='#261945' stop-opacity='0' />
+          <stop stopColor='#261945' />
+          <stop offset='1' stopColor='#261945' stopOpacity='0' />
         </radialGradient>
         <radialGradient
           id='paint13_radial_4_179'
@@ -305,8 +305,8 @@ const LogoNlw = () => {
           gradientUnits='userSpaceOnUse'
           gradientTransform='translate(273.485 107.273) rotate(76.7293) scale(33.0025 54.8033)'
         >
-          <stop stop-color='#191326' />
-          <stop offset='1' stop-color='#191326' stop-opacity='0' />
+          <stop stopColor='#191326' />
+          <stop offset='1' stopColor='#191326' stopOpacity='0' />
         </radialGradient>
         <linearGradient
           id='paint14_linear_4_179'
@@ -316,9 +316,9 @@ const LogoNlw = () => {
           y2='126.818'
           gradientUnits='userSpaceOnUse'
         >
-          <stop stop-color='#996DFF' />
-          <stop offset='0.5' stop-color='#35E8B3' />
-          <stop offset='1' stop-color='#E2D45C' />
+          <stop stopColor='#996DFF' />
+          <stop offset='0.5' stopColor='#35E8B3' />
+          <stop offset='1' stopColor='#E2D45C' />
         </linearGradient>
         <radialGradient
           id='paint15_radial_4_179'
@@ -328,8 +328,8 @@ const LogoNlw = () => {
           gradientUnits='userSpaceOnUse'
           gradientTransform='translate(108.03 27.4244) rotate(-19.3523) scale(65.8413 109.335)'
         >
-          <stop stop-color='#171225' />
-          <stop offset='1' stop-color='#171225' stop-opacity='0' />
+          <stop stopColor='#171225' />
+          <stop offset='1' stopColor='#171225' stopOpacity='0' />
         </radialGradient>
         <radialGradient
           id='paint16_radial_4_179'
@@ -339,8 +339,8 @@ const LogoNlw = () => {
           gradientUnits='userSpaceOnUse'
           gradientTransform='translate(11.9698 108.788) rotate(67.4706) scale(44.2891 73.5456)'
         >
-          <stop stop-color='#191327' />
-          <stop offset='1' stop-color='#191327' stop-opacity='0' />
+          <stop stopColor='#191327' />
+          <stop offset='1' stopColor='#191327' stopOpacity='0' />
         </radialGradient>
         <clipPath id='clip0_4_179'>
           <rect width='285.034' height='160' fill='white' />

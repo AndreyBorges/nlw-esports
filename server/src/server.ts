@@ -22,7 +22,7 @@ app.get('/games', async (req, res) => {
       }
     }
   })
-  return res.json([games])
+  return res.json(games)
 })
 
 app.post('/games/:id/ads', async (req, res) => {
