@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Home } from './pages'
+import { DefaultRoutes } from './pages'
 import '@/styles/main.css'
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-    <Home />
+    <DefaultRoutes />
   </React.StrictMode>
 )

@@ -2,25 +2,19 @@ import * as Dialog from '@radix-ui/react-dialog'
 import * as Checkbox from '@radix-ui/react-checkbox'
 import * as ToggleGroup from '@radix-ui/react-toggle-group'
 import { Check, GameController } from 'phosphor-react'
-import { FC, FormEvent, useEffect, useState } from 'react'
+import { FC, FormEvent, useContext, useEffect, useState } from 'react'
 import { Input } from '..'
-import { GameHomeProps } from '@/pages/@interface'
 import axios from 'axios'
+import { NLWContext } from '@/context'
 
 const CreateAdModal: FC = () => {
-  const [games, setGames] = useState<GameHomeProps[]>([])
+  const { games } = useContext(NLWContext)
   const [weekDays, setWeekDays] = useState<string[]>([])
   const [useVoiceChannel, setUseVoiceChannel] = useState(false)
 
-  useEffect(() => {
-    axios('http://localhost:3333/games').then(({ data }) => {
-      setGames(data)
-    })
-  }, [])
-
   const handleCreateAd = async (ev: FormEvent) => {
     ev.preventDefault()
-
+    
     const formData = new FormData(ev.target as HTMLFormElement)
     const data = Object.fromEntries(formData)
 
@@ -37,6 +31,7 @@ const CreateAdModal: FC = () => {
         useVoiceChannel: useVoiceChannel
       })
       alert('Anúncio criado com sucesso!')
+
     } catch (err) {
       console.log(err)
       alert('Erro ao criar o anúncio!')
@@ -101,7 +96,7 @@ const CreateAdModal: FC = () => {
 
               <ToggleGroup.Root
                 type='multiple'
-                className='grid grid-cols-4 gap-2'
+                className='grid grid-cols-4 gap-2 w-[188px]'
                 onValueChange={setWeekDays}
                 value={weekDays}
               >
@@ -195,7 +190,7 @@ const CreateAdModal: FC = () => {
             </Checkbox.Root>
             Costumo me conectar ao chat de voz
           </label>
-          <footer className='mt-4 flex justify-end gap-4'>
+          <footer className='mt-4 flex justify-between gap-4'>
             <Dialog.Close className='bg-zinc-500 px-5 h-12 rounded-md font-semibold hover:bg-zinc-600'>
               Cancelar
             </Dialog.Close>

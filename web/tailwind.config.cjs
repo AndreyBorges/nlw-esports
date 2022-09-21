@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         galaxy: 'url(./fundo.png)',
-        'nlw-gradient': 'linear-gradient(89.86deg, #9572fc 23.08%, #43E7AD 33.94%, #E1D55D 44.57%)',
+        'nlw-gradient': 'linear-gradient( 90deg,rgba(0, 0, 255, 0.5),rgba(248, 5, 167, 1),yellow,rgb(40, 255, 208))',
         'game-card-gradient': 'linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,.9) 67.08%)'
       }
     }
